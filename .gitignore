@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Secret credentials
+.env.local
+gcloud-credentials.json
+
+# Standard Next.js ignores
+/node_modules
+/.next/
+/out/
+
+# Other
+.DS_Store
